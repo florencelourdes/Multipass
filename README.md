@@ -23,25 +23,25 @@ Multipass is a multi-platform tool for allowing users to easily spin up Ubuntu C
 
 ## Building
 
-Clone the repository:
+### Clone the repository:
 $ git clone https://github.com/florencelourdes/Multipass.git
 $ cd multipass
    
-Build the project using CMake:
+### Build the project using CMake:
 $ cmake .
 $ make
 
-Running
+### Running
 To run Multipass, execute the following command:
 $ ./multipass
 
-Usage
+### Usage
 Once Multipass is running, you can use the following commands:
 list-releases: Lists all currently supported Ubuntu releases.
 current-lts: Returns the current Ubuntu LTS version.
 sha256 <release>: Returns the sha256 of the disk1.img item of a given Ubuntu release.
 
-Example usage:
+### Example usage:
 $ ./multipass list-releases
 $ ./multipass current-lts
 $ ./multipass sha256 bionic
