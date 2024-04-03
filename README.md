@@ -28,27 +28,27 @@ $ git clone https://github.com/florencelourdes/Multipass.git
 $ cd multipass
    
 ### Build the project using CMake:
-$ cmake .
+$ cmake   
 $ make
 
 ### Running
-To run Multipass, execute the following command:
+To run Multipass, execute the following command:  
 $ ./multipass
 
 ### Usage
-Once Multipass is running, you can use the following commands:
-list-releases: Lists all currently supported Ubuntu releases.
-current-lts: Returns the current Ubuntu LTS version.
-sha256 <release>: Returns the sha256 of the disk1.img item of a given Ubuntu release.
+Once Multipass is running, you can use the following commands:  
+list-releases: Lists all currently supported Ubuntu releases.  
+current-lts: Returns the current Ubuntu LTS version.  
+sha256 <release>: Returns the sha256 of the disk1.img item of a given Ubuntu release.  
 
-### Example usage:
-$ ./multipass list-releases
-$ ./multipass current-lts
-$ ./multipass sha256 bionic
+### Example usage:  
+$ ./multipass list-releases  
+$ ./multipass current-lts  
+$ ./multipass sha256 bionic  
 
-Contributing
+### Contributing  
 We welcome contributions to Multipass. If you would like to contribute, please fork the repository and submit a pull request following our contribution guidelines.
 
-License
+### License
 Multipass is licensed under the MIT License.
 
