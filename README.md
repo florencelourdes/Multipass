@@ -24,7 +24,7 @@ Multipass is a multi-platform tool for allowing users to easily spin up Ubuntu C
 ## Building
 
 ### Clone the repository:
-$ git clone https://github.com/florencelourdes/Multipass.git
+$ git clone https://github.com/florencelourdes/Multipass.git  
 $ cd multipass
    
 ### Build the project using CMake:
